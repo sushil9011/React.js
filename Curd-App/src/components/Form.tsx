@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 
-export default function Form({ allStudents, setAllStudents }: any) {
-    // Exact States
+export default function Form({ allStudents, setAllStudents, editStudent, editIndex, setEditIndex, setEditStudent }: any) {
     const [fName, setFName] = useState<string>("");
     const [lName, setLName] = useState<string>("");
     const [email, setEmail] = useState<string>("");
@@ -16,82 +15,79 @@ export default function Form({ allStudents, setAllStudents }: any) {
     const allHobby = ["React JS", "Node JS", "UI/UX", "Python", "DevOps"];
     const allCity = ["Surat", "Rajkot", "Mumbai", "Bangalore", "Delhi"];
 
-    // 100% Your Original Hobby Logic[cite: 1]
+    // Edit Mode: Auto-fill fields when edit button is clicked
+    useEffect(() => {
+        if (editStudent) {
+            setFName(editStudent.fName);
+            setLName(editStudent.lName);
+            setEmail(editStudent.email);
+            setPhone(editStudent.phone);
+            setGender(editStudent.gender);
+            setHobby(editStudent.hobby);
+            setCity(editStudent.city);
+            setAddress(editStudent.address);
+        }
+    }, [editStudent]);
+
     const getStudentHobby = (event: any) => {
         const data = event.target.value;
         const isChecked = event.target.checked;
         if (isChecked) {
             setHobby(abc => [...abc, data]);
         } else {
-            setHobby(hobby => hobby.filter((myHobby) => myHobby !== data));
+            setHobby(prevHobby => prevHobby.filter((myHobby) => myHobby !== data));
         }
     }
 
-    // 100% Your EXACT Validation Logic with phone pattern and console logs[cite: 1]
     const validation = () => {
         let newError: any = {};
-
-        if (!fName) {
-            newError.fname = "first name is required..";
-        }
-
-        if (!lName) {
-            newError.lname = "last name is required..";
-        }
-
+        if (!fName) newError.fname = "first name is required..";
+        if (!lName) newError.lname = "last name is required..";
+        
         const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        if (!email) {
-            newError.email = "email is required..";
-        } else if (!emailPattern.test(email)) {
-            newError.email = "Invalid email address...";
-        }
+        if (!email) { newError.email = "email is required.."; } 
+        else if (!emailPattern.test(email)) { newError.email = "Invalid email address..."; }
 
         const phonePattern = /^(\+91[\-\s]?)?[0]?(91)?[6789]\d{9}$/;
-        if (!phone) {
-            newError.phone = "phone number is required..";
-        } else if (phone.length !== 10 || !phonePattern.test(phone)) {
-            newError.phone = "Invalid phone number..";
-        }
+        if (!phone) { newError.phone = "phone number is required.."; } 
+        else if (phone.length !== 10 || !phonePattern.test(phone)) { newError.phone = "Invalid phone number.."; }
 
-        if (!gender) {
-            newError.gender = "gender is required..";
-        }
-
-        if (hobby.length === 0) {
-            newError.hobby = "hobby is required..";
-        }
-
-        if (!city || city === "select") {
-            newError.city = "city is required..";
-        }
-
-        if (!address) {
-            newError.address = "address is required..";
-        }
+        if (!gender) newError.gender = "gender is required..";
+        if (hobby.length === 0) newError.hobby = "hobby is required..";
+        if (!city || city === "select") newError.city = "city is required..";
+        if (!address) newError.address = "address is required..";
 
         setError(newError);
-        console.log("Error Length : ", Object.keys(newError).length);
         return Object.keys(newError).length;
     }
 
-    // 100% Your Original Submit Logic[cite: 1]
     const studemtFormSubmit = (event: any) => {
         event.preventDefault();
         if (validation() !== 0) return;
         
         const studentData = { fName, lName, email, phone, gender, hobby, city, address };
         
-        setAllStudents([...allStudents, studentData]);
+        if (editIndex !== null) {
+            const updatedList = [...allStudents];
+            updatedList[editIndex] = studentData;
+            setAllStudents(updatedList);
+            setEditIndex(null);
+            setEditStudent(null);
+            toast.info("Profile Updated successfully!");
+        } else {
+            setAllStudents([...allStudents, studentData]);
+            toast.success("Freelancer Registered Successfully!");
+        }
         
-        // Exact same reset logic[cite: 1]
         setFName(""); setLName(""); setEmail(""); setPhone(""); setGender(""); setHobby([]); setCity(""); setAddress("");
         setError({});
-        toast.success("Freelancer Registered Successfully!");
     }
 
     return (
-<div className="border-slate-300 p-10 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.02)] border border-slate-">
-            <h2 className="text-2xl font-bold text-slate-800 mb-8 tracking-tight">Expert Onboarding</h2>
+        <div className="border-slate-300 p-10 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.02)] border bg-white">
+            <h2 className="text-2xl font-bold text-slate-800 mb-8 tracking-tight">
+                {editIndex !== null ? "Update Expert Profile" : "Expert Onboarding"}
+            </h2>
             <form onSubmit={studemtFormSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <div className="space-y-1.5">
@@ -133,7 +129,7 @@ export default function Form({ allStudents, setAllStudents }: any) {
                 </div>
 
                 <div className="space-y-3">
-                    <label className="text-[11px] font-black text-slate-400 uppercase ml-1 tracking-widest">Skill Sets (Hobbies)</label>
+                    <label className="text-[11px] font-black text-slate-400 uppercase ml-1 tracking-widest">Skill Sets</label>
                     <div className="flex flex-wrap gap-2.5">
                         {allHobby.map(h => (
                             <label key={h} className="cursor-pointer">
@@ -156,12 +152,12 @@ export default function Form({ allStudents, setAllStudents }: any) {
 
                 <div className="space-y-1.5">
                     <label className="text-[11px] font-black text-slate-400 uppercase ml-1 tracking-widest">Portfolio/Address</label>
-                    <textarea rows={2} value={address} onChange={(e)=>setAddress(e.target.value)} className="w-full px-5 py-4 rounded-2xl bg-slate-50 border border-slate-100 outline-none focus:bg-white focus:ring-4 focus:ring-orange-50 resize-none text-sm font-bold text-slate-700" placeholder="Brief about your work locations..." />
+                    <textarea rows={2} value={address} onChange={(e)=>setAddress(e.target.value)} className="w-full px-5 py-4 rounded-2xl bg-slate-50 border border-slate-100 outline-none focus:bg-white focus:ring-4 focus:ring-orange-50 resize-none text-sm font-bold text-slate-700" placeholder="Brief about your work..." />
                     {error.address && <p className="text-[10px] text-red-500 font-bold ml-1 uppercase">{error.address}</p>}
                 </div>
 
-                <button type="submit" className="w-full py-5 bg-[#FF5C35] hover:bg-[#E04A25] text-white rounded-[1.25rem] font-black text-sm uppercase tracking-[0.2em] shadow-2xl shadow-orange-200 transition-all active:scale-[0.98] mt-6">
-                    Add Expert Profile
+                <button type="submit" className={`w-full py-5 ${editIndex !== null ? 'bg-[#007A7C]' : 'bg-[#FF5C35]'} hover:opacity-90 text-white rounded-[1.25rem] font-black text-sm uppercase tracking-[0.2em] shadow-2xl transition-all active:scale-[0.98] mt-6`}>
+                    {editIndex !== null ? "Update Expert Profile" : "Add Expert Profile"}
                 </button>
             </form>
         </div>
