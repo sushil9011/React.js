@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { toast } from "react-toastify"; // ✅ Step 1: Import toast
+import { toast } from "react-toastify"; 
 
 export default function Table({ allStudents, deleteStudent, updateStudent }: any) {
     const [search, setSearch] = useState<string>("");
@@ -12,10 +12,9 @@ export default function Table({ allStudents, deleteStudent, updateStudent }: any
         item.city.toLowerCase().includes(search.toLowerCase())
     );
 
-    // ✅ Step 2: Modified delete handler with toast
     const handleDelete = (index: number) => {
         deleteStudent(index); // Existing delete function
-        toast.success("Profile deleted successfully!"); // ✅ Add toast notification
+        toast.success("Profile deleted successfully!"); 
     };
 
     return (
