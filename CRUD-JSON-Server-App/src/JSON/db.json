@@ -1,0 +1,1446 @@
+{
+  "product": [
+    {
+      "id": "FA-032",
+      "p_name": "Adidas Ultraboost Light",
+      "p_price": 18999,
+      "p_stock": 14,
+      "p_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "The lightest Ultraboost ever, with epic energy return."
+    },
+    {
+      "id": "FA-033",
+      "p_name": "Fossil Heritage Watch",
+      "p_price": 14495,
+      "p_stock": 7,
+      "p_image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Automatic movement, classic stainless steel design."
+    },
+    {
+      "id": "FA-034",
+      "p_name": "Calvin Klein Polo",
+      "p_price": 3500,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Slim fit, liquid touch cotton polo shirt."
+    },
+    {
+      "id": "FA-035",
+      "p_name": "Ray-Ban Clubmaster",
+      "p_price": 10500,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Retro frames, black and gold tortoise finish."
+    },
+    {
+      "id": "HL-062",
+      "p_name": "Dyson V15 Detect",
+      "p_price": 65900,
+      "p_stock": 5,
+      "p_image": "https://images.unsplash.com/photo-1558317374-067df5f15430?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Most powerful, intelligent cordless vacuum."
+    },
+    {
+      "id": "HL-063",
+      "p_name": "Philips Hue Starter Kit",
+      "p_price": 12000,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1550524514-9636edba30c7?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Smart lighting for your home, 16 million colors."
+    },
+    {
+      "id": "HL-065",
+      "p_name": "Pure Wool Rug",
+      "p_price": 8500,
+      "p_stock": 6,
+      "p_image": "https://images.unsplash.com/photo-1531835551805-16d864c8d311?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Hand-knotted cream rug, 5x8 feet."
+    },
+    {
+      "id": "SP-091",
+      "p_name": "Garmin Fenix 7X",
+      "p_price": 75000,
+      "p_stock": 9,
+      "p_image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Solar powered multisport GPS watch."
+    },
+    {
+      "id": "SP-093",
+      "p_name": "Manduka PRO Yoga Mat",
+      "p_price": 9500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Professional high-density cushion mat."
+    },
+    {
+      "id": "SP-094",
+      "p_name": "Babolat Pure Drive",
+      "p_price": 16500,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Explosive power tennis racket."
+    },
+    {
+      "id": "SP-095",
+      "p_name": "Bowflex SelectTech",
+      "p_price": 32000,
+      "p_stock": 4,
+      "p_image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Adjustable dumbbells replacing 15 sets."
+    },
+    {
+      "id": "BK-121",
+      "p_name": "Ikigai",
+      "p_price": 450,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "The Japanese secret to a long and happy life."
+    },
+    {
+      "id": "BK-123",
+      "p_name": "Clean Code",
+      "p_price": 1800,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "A handbook of agile software craftsmanship."
+    },
+    {
+      "id": "BK-124",
+      "p_name": "Think and Grow Rich",
+      "p_price": 250,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1592492159418-39f319320569?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "The landmark bestseller by Napoleon Hill."
+    },
+    {
+      "id": "BK-125",
+      "p_name": "Zero to One",
+      "p_price": 500,
+      "p_stock": 22,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Notes on startups, or how to build the future."
+    },
+    {
+      "id": "EL-006",
+      "p_name": "Sony WH-1000XM5",
+      "p_price": 29990,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Noise cancelling headphones with 30-hour battery life."
+    },
+    {
+      "id": "EL-007",
+      "p_name": "iPad Air M2",
+      "p_price": 59900,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "11-inch Liquid Retina display with M2 chip."
+    },
+    {
+      "id": "EL-008",
+      "p_name": "Samsung Odyssey G9",
+      "p_price": 145000,
+      "p_stock": 4,
+      "p_image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "49-inch Curved Gaming Monitor, 240Hz."
+    },
+    {
+      "id": "EL-009",
+      "p_name": "Keychron K2 V2",
+      "p_price": 8500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Wireless Mechanical Keyboard with RGB Backlight."
+    },
+    {
+      "id": "EL-010",
+      "p_name": "DJI Mini 4 Pro",
+      "p_price": 92000,
+      "p_stock": 6,
+      "p_image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Under 249g Drone, 4K/60fps HDR True Vertical Shooting."
+    },
+    {
+      "id": "EL-011",
+      "p_name": "Elgato Stream Deck MK.2",
+      "p_price": 15500,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1625842268584-8f3bf9ffad6a?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "15 customizable LCD keys for studio control."
+    },
+    {
+      "id": "EL-012",
+      "p_name": "Apple Watch Ultra 2",
+      "p_price": 89900,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1434493907317-a46b5bc78344?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Rugged and capable, built for endurance athletes."
+    },
+    {
+      "id": "EL-013",
+      "p_name": "Asus Vivobook Pro 15",
+      "p_price": 78000,
+      "p_stock": 7,
+      "p_image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Ryzen 7 5800HS, RTX 2050, OLED Display."
+    },
+    {
+      "id": "EL-014",
+      "p_name": "Anker 737 Power Bank",
+      "p_price": 12000,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1619145121935-b7713d81023a?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "140W Power Bank with Smart Digital Display."
+    },
+    {
+      "id": "EL-015",
+      "p_name": "Nothing Phone (2)",
+      "p_price": 39999,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Glyph Interface, Snapdragon 8+ Gen 1."
+    },
+    {
+      "id": "FA-036",
+      "p_name": "Nike Tech Fleece",
+      "p_price": 9500,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Lightweight warmth with a clean, modern look."
+    },
+    {
+      "id": "FA-037",
+      "p_name": "Dr. Martens 1460",
+      "p_price": 16000,
+      "p_stock": 8,
+      "p_image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic 8-eye leather boots in smooth cherry."
+    },
+    {
+      "id": "FA-038",
+      "p_name": "Patagonia Nano Puff",
+      "p_price": 14500,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Windproof and water-resistant insulated jacket."
+    },
+    {
+      "id": "FA-039",
+      "p_name": "Carhartt WIP Beanie",
+      "p_price": 1800,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Stretchable rib-knit fabric acrylic beanie."
+    },
+    {
+      "id": "FA-040",
+      "p_name": "Vans Old Skool",
+      "p_price": 5500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "The classic skate shoe with iconic side stripe."
+    },
+    {
+      "id": "FA-041",
+      "p_name": "Zara Oversized Hoodie",
+      "p_price": 2990,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Soft cotton blend in pastel shades."
+    },
+    {
+      "id": "FA-042",
+      "p_name": "The North Face Nuptse",
+      "p_price": 28000,
+      "p_stock": 5,
+      "p_image": "https://images.unsplash.com/photo-1604644401890-0bd678c83788?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Iconic 1996 retro down puffer jacket."
+    },
+    {
+      "id": "FA-043",
+      "p_name": "Herschel Little America",
+      "p_price": 8900,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1553062407-98eeb94c6a62?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Mountaineering-style backpack with magnetic straps."
+    },
+    {
+      "id": "HL-066",
+      "p_name": "Ergonomic Desk Chair",
+      "p_price": 22000,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1505797149-4510b905ed4d?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Full mesh back with adjustable lumbar support."
+    },
+    {
+      "id": "HL-067",
+      "p_name": "Cast Iron Skillet",
+      "p_price": 3500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1591533985558-71e843f5f3e4?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Pre-seasoned 12-inch heavy duty cookware."
+    },
+    {
+      "id": "HL-068",
+      "p_name": "Minimalist Floor Lamp",
+      "p_price": 5400,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Matte black finish with warm LED bulb included."
+    },
+    {
+      "id": "HL-069",
+      "p_name": "Air Purifier Pro",
+      "p_price": 18900,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "HEPA filter with smart air quality sensor."
+    },
+    {
+      "id": "HL-070",
+      "p_name": "Japandi Bed Frame",
+      "p_price": 45000,
+      "p_stock": 3,
+      "p_image": "https://images.unsplash.com/photo-1505693419148-10b271f80451?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Low profile solid oak wood bed frame."
+    },
+    {
+      "id": "HL-071",
+      "p_name": "Scented Candle Set",
+      "p_price": 1500,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1602872030219-c09582950685?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Lavender and Sandalwood soy wax candles."
+    },
+    {
+      "id": "SP-096",
+      "p_name": "Adjustable Bench",
+      "p_price": 8500,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Foldable weight bench with 7 incline levels."
+    },
+    {
+      "id": "SP-097",
+      "p_name": "Resistance Bands Set",
+      "p_price": 1200,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1598289431512-b97b0917a63e?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "5 levels of tension for full body workout."
+    },
+    {
+      "id": "SP-098",
+      "p_name": "Hydro Flask 32oz",
+      "p_price": 3800,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1602143393494-1234b3e83921?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Wide mouth insulated stainless steel water bottle."
+    },
+    {
+      "id": "SP-099",
+      "p_name": "Wilson Tennis Balls",
+      "p_price": 600,
+      "p_stock": 120,
+      "p_image": "https://images.unsplash.com/photo-1592709823125-a191f07a2a5e?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Can of 3 championship extra duty balls."
+    },
+    {
+      "id": "SP-100",
+      "p_name": "Trek Marlin 5 Bike",
+      "p_price": 42000,
+      "p_stock": 4,
+      "p_image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Cross-country mountain bike for trails."
+    },
+    {
+      "id": "BK-126",
+      "p_name": "Eloquent JavaScript",
+      "p_price": 2200,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "A modern introduction to programming."
+    },
+    {
+      "id": "BK-127",
+      "p_name": "Deep Work",
+      "p_price": 499,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Rules for focused success in a distracted world."
+    },
+    {
+      "id": "BK-128",
+      "p_name": "The Alchemist",
+      "p_price": 350,
+      "p_stock": 55,
+      "p_image": "https://images.unsplash.com/photo-1543004223-f4bd324b1c50?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "A fable about following your dream by Paulo Coelho."
+    },
+    {
+      "id": "BK-129",
+      "p_name": "Sapiens",
+      "p_price": 599,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "A brief history of humankind by Yuval Noah Harari."
+    },
+    {
+      "id": "BK-130",
+      "p_name": "Man's Search for Meaning",
+      "p_price": 299,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Viktor Frankl's account of life in Nazi death camps."
+    },
+    {
+      "id": "EL-016",
+      "p_name": "Beats Studio Pro",
+      "p_price": 34900,
+      "p_stock": 11,
+      "p_image": "https://images.unsplash.com/photo-1583394838336-acd9929a3391?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Premium wireless noise canceling headphones."
+    },
+    {
+      "id": "FA-044",
+      "p_name": "Lacoste Polo Shirt",
+      "p_price": 7500,
+      "p_stock": 16,
+      "p_image": "https://images.unsplash.com/photo-1586363104864-50e2246b2fdb?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Signature petit piqué cotton polo."
+    },
+    {
+      "id": "HL-072",
+      "p_name": "Vitamix A2300",
+      "p_price": 48000,
+      "p_stock": 7,
+      "p_image": "https://images.unsplash.com/photo-1574340512313-0949319ee221?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Professional-grade high-performance blender."
+    },
+    {
+      "p_name": "jhanvi",
+      "p_price": 0,
+      "p_stock": 0,
+      "p_image": "data:image/webp;base64,UklGRpoUAABXRUJQVlA4II4UAABwYgCdASrBAAEBPj0ejEQiIaETK11kIAPEsrb02BeAmIgVeOX1lvM7fypOT/Ct9Dva7V8vl9f0zf1v9yd/V5l/25/XL3SvUJ5N3Xnf1D1cumT8pym1fr80/7PiIjj/sgxu07f+B6Qk2WU2zTvUPYD/k/90/4H25fUd/of+z/RemP6z/7n+T9zj+wf7/10fZF+4HscfseUd/ATYgOmXHooXc+hnIVc10Zz1g1T7P/3+asb1f0i8xcfTMNBuMBdPjMDj+9cuDumgN7cYgWV9imQtZZjkqUBNZAtroLvAM8ueX5BE/A2wBuaPcnVeOTAKlUrlrdc3F5PBgf2o+HXlkqZbUKq+IO49M/rYXI2G/K2utAt0in2sgXTMCQxQW2iafKCA2L7/CdbxUOKZMoePihn/pepSem7atM265O5LDc3UEoIzH/BeNH5rUGcRxlQd4a3yIao6qOdf9Burt00BhcOLBOt9WrlBPx80lP4qg+f4y5xFa2ycvKL+l1l7cLSikt55zsG8lGJ/UEPk+OhlA+WNhFfRrQlNrpWUTOFzwbxYv6ibdJJY9cHU5J7JAC6Xj8iQJKycONjIWEELQoLlSDE6EEhg2i63a4UX/+4Y9r3nwsLMmDw8Ii4710Wgnoz6V0rMQhEJOAuSE9i2H6q3jZjXlqA/mWOqs9IFDSkIzb/NzvjUVjT7ty8z81IrHwgvCf4gtKXGQthI58a+0RYKe08yXm48szajdz0P8byoy8gmZEJjFcb3E0mj/wOgjR8tRd3Uu06XEGK7kmciBPj6c0DdQJZpYN8W0OLP7reZbw9VK//E2fRNmWEbckEV5XOQBKoHcd1S22WXJTsXCjlyoSEK0TFGjzE6Wy8AqmnYIgHoSmeD97y4WkGTZex8bLQ9ayRn/HEFv3dleiK0r1YEGMa+Xjafr9fvq3vihL8wuZMBv/sWJLWXD7KRShuQcMbMSkyPP8oRo90skB6Pd",
+      "p_category": "Electronic",
+      "p_description": "i am idiot",
+      "id": "lNnkSGEfcCo"
+    },
+    {
+      "id": "EL-027",
+      "p_name": "Logitech G Pro X Superlight",
+      "p_price": 13500,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Ultra-lightweight wireless gaming mouse."
+    },
+    {
+      "id": "EL-028",
+      "p_name": "Sony HT-S20R Soundbar",
+      "p_price": 18000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "5.1 Channel Dolby Digital Wired Home Theatre System."
+    },
+    {
+      "id": "EL-029",
+      "p_name": "WD Black 1TB NVMe SSD",
+      "p_price": 8500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1531492746076-1a1bd9cd200c?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "High-performance internal gaming SSD."
+    },
+    {
+      "id": "EL-030",
+      "p_name": "GoPro Media Mod",
+      "p_price": 7900,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1526170315870-3f3bd609703f?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "External mic and HDMI port for GoPro."
+    },
+    {
+      "id": "EL-031",
+      "p_name": "Rode NT1 5th Gen",
+      "p_price": 24000,
+      "p_stock": 8,
+      "p_image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Studio condenser microphone with XLR & USB."
+    },
+    {
+      "id": "EL-032",
+      "p_name": "Fujifilm Instax Mini 12",
+      "p_price": 6000,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1526170315870-3f3bd609703f?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Instant film camera with automatic exposure."
+    },
+    {
+      "id": "EL-033",
+      "p_name": "Keychron Q1 Pro",
+      "p_price": 16500,
+      "p_stock": 5,
+      "p_image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Wireless custom mechanical keyboard."
+    },
+    {
+      "id": "EL-034",
+      "p_name": "Kindle Paperwhite",
+      "p_price": 14000,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1592434134753-a70baf7979d7?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "6.8 inch display with adjustable warm light."
+    },
+    {
+      "id": "EL-035",
+      "p_name": "Corsair RM850x PSU",
+      "p_price": 12500,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1531492746076-1a1bd9cd200c?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "80 PLUS Gold Fully Modular Power Supply."
+    },
+    {
+      "id": "EL-036",
+      "p_name": "Samsung T7 2TB SSD",
+      "p_price": 16000,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1531492746076-1a1bd9cd200c?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Portable SSD with 1050MB/s read speed."
+    },
+    {
+      "id": "FA-055",
+      "p_name": "Wrangler Denim Shirt",
+      "p_price": 2500,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Rugged denim shirt with pearl snaps."
+    },
+    {
+      "id": "FA-056",
+      "p_name": "Puma RS-X Sneakers",
+      "p_price": 8000,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Retro-future sneakers with bold colors."
+    },
+    {
+      "id": "FA-057",
+      "p_name": "Superdry Windcheater",
+      "p_price": 7500,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Triple zip jacket with mesh lining."
+    },
+    {
+      "id": "FA-058",
+      "p_name": "Allen Solly Blazer",
+      "p_price": 6500,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Slim fit formal blazer for men."
+    },
+    {
+      "id": "FA-059",
+      "p_name": "Lee Slim Fit Jeans",
+      "p_price": 2800,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic dark wash slim fit denim."
+    },
+    {
+      "id": "FA-060",
+      "p_name": "H&M Oversized Tee",
+      "p_price": 999,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Relaxed fit cotton t-shirt."
+    },
+    {
+      "id": "FA-061",
+      "p_name": "Reebok Workout Plus",
+      "p_price": 6000,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic 80s leather fitness shoes."
+    },
+    {
+      "id": "FA-062",
+      "p_name": "Zara Chino Pants",
+      "p_price": 3500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Stretch cotton trousers in tan."
+    },
+    {
+      "id": "FA-063",
+      "p_name": "Under Armour Joggers",
+      "p_price": 4200,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Rival fleece sweatpants for training."
+    },
+    {
+      "id": "FA-064",
+      "p_name": "Nike Heritage Bag",
+      "p_price": 1800,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1553062407-98eeb94c6a62?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Small items cross-body bag."
+    },
+    {
+      "id": "FA-065",
+      "p_name": "Vero Moda Maxi Dress",
+      "p_price": 4500,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Floral print summer maxi dress."
+    },
+    {
+      "id": "FA-066",
+      "p_name": "FabIndia Kurta",
+      "p_price": 3200,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Hand-printed cotton ethnic wear."
+    },
+    {
+      "id": "FA-067",
+      "p_name": "Daniel Wellington Watch",
+      "p_price": 14000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Minimalist watch with leather strap."
+    },
+    {
+      "id": "FA-068",
+      "p_name": "Jack & Jones Jacket",
+      "p_price": 5500,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Lightweight bomber jacket."
+    },
+    {
+      "id": "FA-069",
+      "p_name": "Crocs Classic Clogs",
+      "p_price": 3000,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Comfortable slip-on footwear."
+    },
+    {
+      "id": "FA-070",
+      "p_name": "Skechers Go Walk",
+      "p_price": 5000,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Lightweight walking shoes."
+    },
+    {
+      "id": "HL-083",
+      "p_name": "Himalayan Salt Lamp",
+      "p_price": 1200,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Natural ionizing salt crystal lamp."
+    },
+    {
+      "id": "HL-084",
+      "p_name": "Memory Foam Pillow",
+      "p_price": 2500,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Contour pillow for neck support."
+    },
+    {
+      "id": "HL-085",
+      "p_name": "Ceramic Dinner Set",
+      "p_price": 8500,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1584990344313-264627606332?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "16-piece matte ceramic tableware."
+    },
+    {
+      "id": "HL-086",
+      "p_name": "Air Fryer 4L",
+      "p_price": 6500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1584990344313-264627606332?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Healthy oil-free cooking appliance."
+    },
+    {
+      "id": "HL-087",
+      "p_name": "Bamboo Bed Sheets",
+      "p_price": 3800,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Cooling hypoallergenic queen sheets."
+    },
+    {
+      "id": "HL-088",
+      "p_name": "Wall Clock Modern",
+      "p_price": 1800,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Minimalist silent non-ticking clock."
+    },
+    {
+      "id": "HL-089",
+      "p_name": "Manual Juicer",
+      "p_price": 1100,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1584990344313-264627606332?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Hand-press citrus fruit juicer."
+    },
+    {
+      "id": "HL-090",
+      "p_name": "Coffee Grinder",
+      "p_price": 3200,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1544194215-541c2d3561a4?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Electric burr grinder for beans."
+    },
+    {
+      "id": "HL-091",
+      "p_name": "Yoga Statue Set",
+      "p_price": 1500,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1594913785162-e678ac052dae?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Resin figurines for shelf decor."
+    },
+    {
+      "id": "HL-092",
+      "p_name": "Blackout Curtains",
+      "p_price": 2800,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Thermal insulated window drapes."
+    },
+    {
+      "id": "HL-094",
+      "p_name": "Induction Cooktop",
+      "p_price": 4500,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1584990344313-264627606332?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "2000W portable electric cooker."
+    },
+    {
+      "id": "HL-095",
+      "p_name": "Floor Cushion",
+      "p_price": 1200,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Bohemian round seating pillow."
+    },
+    {
+      "id": "HL-096",
+      "p_name": "Knife Block Set",
+      "p_price": 5800,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Stainless steel 6-piece cutlery set."
+    },
+    {
+      "id": "HL-097",
+      "p_name": "Tea Kettle 2L",
+      "p_price": 1600,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1544194215-541c2d3561a4?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Whistling stainless steel stovetop kettle."
+    },
+    {
+      "id": "HL-098",
+      "p_name": "Electric Kettle",
+      "p_price": 2200,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1544194215-541c2d3561a4?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Fast boil water heater 1.5L."
+    },
+    {
+      "id": "SP-111",
+      "p_name": "Yoga Block Set",
+      "p_price": 850,
+      "p_stock": 80,
+      "p_image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "High density foam yoga support."
+    },
+    {
+      "id": "SP-112",
+      "p_name": "Pull Up Bar",
+      "p_price": 2800,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1583454110551-21f2fa2ec617?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Doorway mounting chin-up station."
+    },
+    {
+      "id": "SP-113",
+      "p_name": "Jump Rope Digital",
+      "p_price": 1200,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1517438476312-10d79c67750d?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Skipping rope with calorie counter."
+    },
+    {
+      "id": "SP-114",
+      "p_name": "Swimming Cap",
+      "p_price": 450,
+      "p_stock": 150,
+      "p_image": "https://images.unsplash.com/photo-1551927336-09d50efd69cd?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Silicone waterproof swim gear."
+    },
+    {
+      "id": "SP-115",
+      "p_name": "Cricket Bat Willow",
+      "p_price": 8500,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Grade 1 English willow cricket bat."
+    },
+    {
+      "id": "SP-116",
+      "p_name": "Cricket Ball Box",
+      "p_price": 2500,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Set of 6 leather red balls."
+    },
+    {
+      "id": "SP-117",
+      "p_name": "Tennis Net",
+      "p_price": 6000,
+      "p_stock": 5,
+      "p_image": "https://images.unsplash.com/photo-1592709823125-a191f07a2a5e?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Professional regulation tennis net."
+    },
+    {
+      "id": "SP-118",
+      "p_name": "Basketball Hoop",
+      "p_price": 12000,
+      "p_stock": 8,
+      "p_image": "https://images.unsplash.com/photo-1519861531473-9200362f46b3?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Wall-mounted backboard and rim."
+    },
+    {
+      "id": "SP-119",
+      "p_name": "Hand Grip Strength",
+      "p_price": 650,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1591533985558-71e843f5f3e4?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Adjustable forearm trainer."
+    },
+    {
+      "id": "SP-120",
+      "p_name": "Ab Roller Wheel",
+      "p_price": 999,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1583454110551-21f2fa2ec617?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Dual wheel core muscle trainer."
+    },
+    {
+      "id": "SP-121",
+      "p_name": "Weight Lifting Belt",
+      "p_price": 1800,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Leather support for heavy squats."
+    },
+    {
+      "id": "SP-122",
+      "p_name": "Darts Board Set",
+      "p_price": 3200,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1534158914592-062992fbe900?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Sisal board with 6 steel tip darts."
+    },
+    {
+      "id": "SP-123",
+      "p_name": "Badminton Shuttle",
+      "p_price": 1500,
+      "p_stock": 200,
+      "p_image": "https://images.unsplash.com/photo-1626225441121-41410c55847d?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Duck feather shuttlecock tube."
+    },
+    {
+      "id": "SP-124",
+      "p_name": "Shin Guards",
+      "p_price": 850,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1517438476312-10d79c67750d?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Football protective leg guards."
+    },
+    {
+      "id": "SP-125",
+      "p_name": "Yoga Wheel",
+      "p_price": 1800,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Back stretcher for yoga poses."
+    },
+    {
+      "id": "BK-141",
+      "p_name": "Atomic Habits",
+      "p_price": 500,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Small changes, remarkable results."
+    },
+    {
+      "id": "BK-142",
+      "p_name": "The Power of Habit",
+      "p_price": 450,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Why we do what we do in life."
+    },
+    {
+      "id": "BK-143",
+      "p_name": "Thinking, Fast & Slow",
+      "p_price": 650,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Daniel Kahneman on human logic."
+    },
+    {
+      "id": "BK-144",
+      "p_name": "The Great Gatsby",
+      "p_price": 250,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1543004223-f4bd324b1c50?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "F. Scott Fitzgerald's classic novel."
+    },
+    {
+      "id": "BK-145",
+      "p_name": "Meditations",
+      "p_price": 300,
+      "p_stock": 70,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Stoic philosophy by Marcus Aurelius."
+    },
+    {
+      "id": "BK-146",
+      "p_name": "Beyond Good and Evil",
+      "p_price": 350,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Friedrich Nietzsche's masterwork."
+    },
+    {
+      "id": "BK-147",
+      "p_name": "The Republic",
+      "p_price": 320,
+      "p_stock": 55,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Plato's dialogue on justice."
+    },
+    {
+      "id": "BK-148",
+      "p_name": "Art of War",
+      "p_price": 200,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Ancient military strategy by Sun Tzu."
+    },
+    {
+      "id": "BK-149",
+      "p_name": "Kafka on the Shore",
+      "p_price": 550,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Haruki Murakami's surreal odyssey."
+    },
+    {
+      "id": "BK-150",
+      "p_name": "Norwegian Wood",
+      "p_price": 499,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "A story of nostalgia and young love."
+    },
+    {
+      "id": "BK-151",
+      "p_name": "Crime and Punishment",
+      "p_price": 400,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1543004223-f4bd324b1c50?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Fyodor Dostoevsky's intense thriller."
+    },
+    {
+      "id": "BK-152",
+      "p_name": "The Metamorphosis",
+      "p_price": 199,
+      "p_stock": 80,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Franz Kafka's existential novella."
+    },
+    {
+      "id": "BK-153",
+      "p_name": "Lord of the Rings",
+      "p_price": 1800,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "The complete trilogy in one edition."
+    },
+    {
+      "id": "BK-154",
+      "p_name": "The Hobbit",
+      "p_price": 550,
+      "p_stock": 22,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "J.R.R. Tolkien's adventure prequel."
+    },
+    {
+      "id": "BK-155",
+      "p_name": "Harry Potter #1",
+      "p_price": 499,
+      "p_stock": 65,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Sorcerer's Stone by J.K. Rowling."
+    },
+    {
+      "id": "BK-156",
+      "p_name": "Foundation",
+      "p_price": 600,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Isaac Asimov's science fiction epic."
+    },
+    {
+      "id": "BK-157",
+      "p_name": "The Odyssey",
+      "p_price": 380,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Homer's epic journey of Odysseus."
+    },
+    {
+      "id": "BK-158",
+      "p_name": "Little Women",
+      "p_price": 350,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1543004223-f4bd324b1c50?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Louisa May Alcott's family classic."
+    },
+    {
+      "id": "BK-159",
+      "p_name": "The Iliad",
+      "p_price": 380,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Homer's tale of the Trojan War."
+    },
+    {
+      "id": "EL-037",
+      "p_name": "Nvidia RTX 4070",
+      "p_price": 62000,
+      "p_stock": 5,
+      "p_image": "https://images.unsplash.com/photo-1531492746076-1a1bd9cd200c?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "12GB GDDR6X Graphics Card."
+    },
+    {
+      "id": "EL-038",
+      "p_name": "Intel i9-13900K",
+      "p_price": 54000,
+      "p_stock": 7,
+      "p_image": "https://images.unsplash.com/photo-1531492746076-1a1bd9cd200c?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "24-core flagship desktop processor."
+    },
+    {
+      "id": "EL-039",
+      "p_name": "NZXT H5 Flow",
+      "p_price": 9500,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1531492746076-1a1bd9cd200c?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Compact ATX mid-tower PC case."
+    },
+    {
+      "id": "EL-040",
+      "p_name": "Sony ZV-E10",
+      "p_price": 58000,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Vlogging camera with interchangeable lens."
+    },
+    {
+      "id": "EL-041",
+      "p_name": "Logitech C922 Pro",
+      "p_price": 10500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1625842268584-8f3bf9ffad6a?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "1080p webcam for streaming."
+    },
+    {
+      "id": "EL-042",
+      "p_name": "Razer BlackShark V2",
+      "p_price": 9900,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1583394838336-acd9929a3391?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Esports gaming headset."
+    },
+    {
+      "id": "EL-043",
+      "p_name": "Wacom Intuos Pro",
+      "p_price": 28000,
+      "p_stock": 8,
+      "p_image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Digital pen tablet for artists."
+    },
+    {
+      "id": "EL-044",
+      "p_name": "Belkin USB-C Hub",
+      "p_price": 4200,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1619145121935-b7713d81023a?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "7-in-1 multi-port adapter."
+    },
+    {
+      "id": "EL-045",
+      "p_name": "Thermal Grizzly Kryonaut",
+      "p_price": 1200,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1531492746076-1a1bd9cd200c?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "High performance thermal paste."
+    },
+    {
+      "id": "EL-046",
+      "p_name": "Glorious Model O",
+      "p_price": 5500,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Lightweight honeycomb gaming mouse."
+    },
+    {
+      "id": "EL-047",
+      "p_name": "TP-Link AX3000",
+      "p_price": 7500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1558002038-103792e17304?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Wi-Fi 6 dual-band gigabit router."
+    },
+    {
+      "id": "EL-048",
+      "p_name": "SanDisk 256GB MicroSD",
+      "p_price": 2200,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1531492746076-1a1bd9cd200c?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Extreme UHS-I memory card."
+    },
+    {
+      "id": "EL-049",
+      "p_name": "Phillips Hue Bridge",
+      "p_price": 4800,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1550524514-9636edba30c7?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Smart lighting control center."
+    },
+    {
+      "id": "EL-050",
+      "p_name": "Anker Soundcore 2",
+      "p_price": 3500,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Portable IPX7 waterproof speaker."
+    },
+    {
+      "id": "FA-071",
+      "p_name": "Levis 501 Original",
+      "p_price": 4200,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "The blueprint for every pair of jeans."
+    },
+    {
+      "id": "FA-072",
+      "p_name": "Gap Logo Hoodie",
+      "p_price": 3800,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Soft fleece iconic logo pullover."
+    },
+    {
+      "id": "FA-073",
+      "p_name": "Fila Disruptor",
+      "p_price": 5500,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Chunky fashion sneakers."
+    },
+    {
+      "id": "FA-074",
+      "p_name": "Timberland Wallet",
+      "p_price": 2200,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1624222247344-550fb80583dc?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Genuine leather bifold wallet."
+    },
+    {
+      "id": "FA-075",
+      "p_name": "U.S. Polo Assn. Polo",
+      "p_price": 1800,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic fit piqué cotton shirt."
+    },
+    {
+      "id": "FA-076",
+      "p_name": "Puma Duffel Bag",
+      "p_price": 2800,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1553062407-98eeb94c6a62?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Challenger training sports bag."
+    },
+    {
+      "p_name": "T-Shirt",
+      "p_price": 95656,
+      "p_stock": 1,
+      "p_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnJNqQNr07AU50xgY2RCl6ra9B5WhxADSZA&s",
+      "p_category": "Fashion",
+      "p_description": "jplss",
+      "id": "uX5xJtAiFv4"
+    },
+    {
+      "p_name": "iphone",
+      "p_price": 45,
+      "p_stock": 7,
+      "p_image": "data:image/webp;base64,UklGRpoUAABXRUJQVlA4II4UAABwYgCdASrBAAEBPj0ejEQiIaETK11kIAPEsrb02BeAmIgVeOX1lvM7fypOT/Ct9Dva7V8vl9f0zf1v9yd/V5l/25/XL3SvUJ5N3Xnf1D1cumT8pym1fr80/7PiIjj/sgxu07f+B6Qk2WU2zTvUPYD/k/90/4H25fUd/of+z/RemP6z/7n+T9zj+wf7/10fZF+4HscfseUd/ATYgOmXHooXc+hnIVc10Zz1g1T7P/3+asb1f0i8xcfTMNBuMBdPjMDj+9cuDumgN7cYgWV9imQtZZjkqUBNZAtroLvAM8ueX5BE/A2wBuaPcnVeOTAKlUrlrdc3F5PBgf2o+HXlkqZbUKq+IO49M/rYXI2G/K2utAt0in2sgXTMCQxQW2iafKCA2L7/CdbxUOKZMoePihn/pepSem7atM265O5LDc3UEoIzH/BeNH5rUGcRxlQd4a3yIao6qOdf9Burt00BhcOLBOt9WrlBPx80lP4qg+f4y5xFa2ycvKL+l1l7cLSikt55zsG8lGJ/UEPk+OhlA+WNhFfRrQlNrpWUTOFzwbxYv6ibdJJY9cHU5J7JAC6Xj8iQJKycONjIWEELQoLlSDE6EEhg2i63a4UX/+4Y9r3nwsLMmDw8Ii4710Wgnoz6V0rMQhEJOAuSE9i2H6q3jZjXlqA/mWOqs9IFDSkIzb/NzvjUVjT7ty8z81IrHwgvCf4gtKXGQthI58a+0RYKe08yXm48szajdz0P8byoy8gmZEJjFcb3E0mj/wOgjR8tRd3Uu06XEGK7kmciBPj6c0DdQJZpYN8W0OLP7reZbw9VK//E2fRNmWEbckEV5XOQBKoHcd1S22WXJTsXCjlyoSEK0TFGjzE6Wy8AqmnYIgHoSmeD97y4WkGTZex8bLQ9ayRn/HEFv3dleiK0r1YEGMa+Xjafr9fvq3vihL8wuZMBv/sWJLWXD7KRShuQcMbMSkyPP8oRo90skB6Pd",
+      "p_category": "Electronic",
+      "p_description": "esfsefe",
+      "id": "ffPdCPMngrM"
+    },
+    {
+      "p_name": "Wool Knit Sweater",
+      "p_price": 79856,
+      "p_stock": 21,
+      "p_image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "nhhjked",
+      "id": "8CgVY119V38"
+    },
+    {
+      "p_name": "jhanvi",
+      "p_price": 974556,
+      "p_stock": 1,
+      "p_image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "hhskkk",
+      "id": "SRgEmyjtsnY"
+    },
+    {
+      "p_name": "yash",
+      "p_price": 94664,
+      "p_stock": 14,
+      "p_image": "https://www.behance.net/search/projects/pupets?locale=en_US",
+      "p_category": "Electronic",
+      "p_description": "tehrthft",
+      "id": "sqCMQOW8GBI"
+    },
+    {
+      "p_name": "yash",
+      "p_price": 32,
+      "p_stock": 2,
+      "p_image": "https://www.behance.net/search/projects/pupets?locale=en_US",
+      "p_category": "Electronic",
+      "p_description": "esdfghjk",
+      "id": "qYGhXm4WjYw"
+    },
+    {
+      "p_name": "yash",
+      "p_price": 1,
+      "p_stock": 29,
+      "p_image": "https://www.behance.net/search/projects/pupets?locale=en_US",
+      "p_category": "Electronic",
+      "p_description": "sdgfhgjhgf",
+      "id": "k9Qkhp-HoTA"
+    },
+    {
+      "p_name": "dinu",
+      "p_price": 2,
+      "p_stock": 2,
+      "p_image": "https://www.behance.net/search/projects/pupets?locale=en_US",
+      "p_category": "Electronic",
+      "p_description": "eqwrtghyj",
+      "id": "rTAkD3q_zAk"
+    },
+    {
+      "p_name": "yash",
+      "p_price": 3,
+      "p_stock": 4,
+      "p_image": "https://images.unsplash.com/photo-1558317374-067df5f15430?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "werdgh",
+      "id": "axRqWYUbYlE"
+    },
+    {
+      "p_name": "dinu",
+      "p_price": 1,
+      "p_stock": 5,
+      "p_image": "https://www.behance.net/search/projects/pupets?locale=en_US",
+      "p_category": "Electronic",
+      "p_description": "kjnhbgvfcd",
+      "id": "ith3DcE5i7c"
+    },
+    {
+      "p_name": "Philips Hue Starter Kit",
+      "p_price": 7,
+      "p_stock": 3,
+      "p_image": "https://www.behance.net/search/projects/pupets?locale=en_US",
+      "p_category": "Electronic",
+      "p_description": "rdgh",
+      "id": "H9OrKvO2Vxo"
+    },
+    {
+      "p_name": "Philips Hue Starter Kit",
+      "p_price": 15,
+      "p_stock": 17,
+      "p_image": "https://www.behance.net/search/projects/pupets?locale=en_US",
+      "p_category": "Fashion",
+      "p_description": "hjjkhuj",
+      "id": "teUR3qySDug"
+    }
+  ],
+  "cart": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
