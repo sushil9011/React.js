@@ -64,18 +64,9 @@ export default function NavBar() {
                 href="/addBikes/flutter"
                 className="flex items-center gap-2 px-5 py-3 text-gray-300 hover:text-white font-medium rounded-lg transition-all duration-200 hover:bg-gradient-to-r hover:from-gray-800 hover:to-gray-900 relative group"
               >
-                <Smartphone className="w-5 h-5 text-red-500" />
-                <span>Mobile App</span>
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-red-500 to-orange-500 transition-all duration-300 group-hover:w-full"></span>
               </Link>
 
-              {/* Call to Action Button */}
-              <Link
-                href="/contact"
-                className="ml-4 px-6 py-3 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-red-900/30 hover:scale-105"
-              >
-                Contact Dealer
-              </Link>
+              
             </div>
 
             {/* Mobile Menu Button */}
@@ -148,22 +139,7 @@ export default function NavBar() {
                   <div className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 group-hover:bg-gray-700">
                     <Smartphone className="w-4 h-4 text-red-500" />
                   </div>
-                  <div className="flex flex-col">
-                    <span>Mobile App</span>
-                    <span className="text-xs text-gray-500">Flutter application</span>
-                  </div>
                 </Link>
-
-                {/* Mobile CTA Button */}
-                <div className="pt-4 px-4">
-                  <Link
-                    href="/contact"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="block w-full text-center px-6 py-3 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-red-900/30"
-                  >
-                    Contact Dealer
-                  </Link>
-                </div>
               </div>
             </div>
           )}

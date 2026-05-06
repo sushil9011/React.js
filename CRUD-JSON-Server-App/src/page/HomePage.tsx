@@ -1,147 +1,151 @@
-import { useEffect, useState } from "react";
-import { fetchAllProducts } from "../Services/ProductService";
-import type { productFetchType } from "../utils/global";
-import { Link } from "react-router";
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router'; //
 
-export default function HomePage() {
-    const [allProducts, setAllProducts] = useState<productFetchType[]>([]);
-    const [allCategories, setAllCategories] = useState<string[]>([]);
-    const [filterCategory, setFilterCategory] = useState<string>("All");
-
-    useEffect(() => {
-        getAllProductData();
-    }, []);
-
-    useEffect(() => {
-        let allCategory: any = new Set(allProducts.map((product) => product.p_category));
-        allCategory = Array.from(allCategory);
-        setAllCategories(["All", ...allCategory]);
-    }, [allProducts]);
-
-    const getAllProductData = async () => {
-        const allProductData = await fetchAllProducts();
-        setAllProducts(allProductData);
-    };
-
-    const filterProducts = (filterCategory === "All")
-        ? allProducts
-        : allProducts.filter((product) => product.p_category === filterCategory);
-
-    return (
-        <div className="bg-white min-h-screen font-sans text-slate-900">
-            {/* --- Minimalist Header --- */}
-            <header className="border-b border-slate-100 sticky top-0 bg-white z-50">
-                <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-                    <Link to="/" className="text-2xl font-bold tracking-tighter text-slate-950">
-                        VeloCity<span className="text-indigo-600">.</span>
-                    </Link>
-                    <div className="flex items-center gap-2 text-sm font-medium text-slate-600">
-                        <span>Catalog</span>
-                        <span className="text-slate-300">/</span>
-                        <span className="text-slate-900 font-semibold">{filterCategory}</span>
-                    </div>
-                </nav>
-            </header>
-
-            <main className="max-w-7xl mx-auto px-6 py-12 md:py-16">
-                {/* --- Section Title & Description --- */}
-                <div className="mb-12 border-l-4 border-indigo-500 pl-6 py-2">
-                    <h1 className="text-4xl md:text-5xl font-extrabold tracking-tighter text-slate-950">
-                        The Core Collection
-                    </h1>
-                    <p className="mt-3 text-lg text-slate-600 max-w-2xl">
-                        Discover a refined selection of essential assets, designed for performance and built to last.
-                    </p>
-                </div>
-
-                {/* --- Inline Category Navigation --- */}
-                <div className="mb-16 border-b border-slate-100">
-                    <div className="flex items-center gap-1 -mb-px overflow-x-auto no-scrollbar">
-                        {allCategories.map((category) => (
-                            <button
-                                key={category}
-                                onClick={() => setFilterCategory(category)}
-                                className={`px-5 py-4 text-sm font-semibold whitespace-nowrap border-b-2 transition-all duration-300 ${
-                                    filterCategory === category
-                                        ? "border-indigo-600 text-indigo-600"
-                                        : "border-transparent text-slate-500 hover:text-slate-900 hover:border-slate-200"
-                                }`}
-                            >
-                                {category}
-                                <span className={`ml-2 text-xs px-1.5 py-0.5 rounded ${filterCategory === category ? 'bg-indigo-50 text-indigo-600' : 'bg-slate-100 text-slate-500'}`}>
-                                    {category === "All" ? allProducts.length : allProducts.filter(p => p.p_category === category).length}
-                                </span>
-                            </button>
-                        ))}
-                    </div>
-                </div>
-
-                {/* --- Studio Product Grid --- */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-12">
-                    {filterProducts.map((product) => (
-                        <Link
-                            to={`/product-detail/${product.id}`}
-                            key={product.id}
-                            className="group block"
-                        >
-                            {/* Image Container - Clean & Structured */}
-                            <div className="aspect-[1/1] w-full overflow-hidden bg-slate-50 border border-slate-100 rounded-lg mb-5 transition-all duration-300 group-hover:border-slate-200">
-                                <img
-                                    src={product.p_image}
-                                    alt={product.p_name}
-                                    className="w-full h-full object-cover object-center transform transition-transform duration-500 group-hover:scale-105"
-                                />
-                            </div>
-
-                            {/* Product Info - Simple Typography */}
-                            <div className="space-y-2">
-                                <div className="flex items-start justify-between gap-4">
-                                    <h3 className="text-lg font-semibold text-slate-900 leading-tight group-hover:text-indigo-600 transition-colors truncate">
-                                        {product.p_name}
-                                    </h3>
-                                    <span className="text-xs font-medium text-slate-500 bg-slate-100 px-2.5 py-1 rounded">
-                                        {product.p_category}
-                                    </span>
-                                </div>
-                                <p className="text-sm text-slate-600 line-clamp-2">
-                                    {product.p_description}
-                                </p>
-                                <div className="flex items-center justify-between pt-2">
-                                    <span className="text-xl font-bold text-slate-950">
-                                        ₹{Number(product.p_price).toLocaleString('en-IN')}
-                                    </span>
-                                    <span className="text-xs font-semibold text-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity">
-                                        View Details →
-                                    </span>
-                                </div>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
-
-                {/* --- Subtle Empty State --- */}
-                {filterProducts.length === 0 && (
-                    <div className="text-center py-24 bg-slate-50 rounded-lg border border-slate-100 mt-12">
-                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white border border-slate-200 text-slate-400 mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                            </svg>
-                        </div>
-                        <h2 className="text-2xl font-bold text-slate-900 tracking-tight">No Items found in {filterCategory}</h2>
-                        <p className="text-slate-600 mt-2 font-medium">Please select another category or check back later.</p>
-                    </div>
-                )}
-            </main>
-
-            {/* --- Simple, Clean Footer --- */}
-            <footer className="border-t border-slate-100 mt-24 bg-slate-50">
-                <div className="max-w-7xl mx-auto px-6 py-12 text-center">
-                    <p className="text-sm font-semibold text-slate-900tracking-tight">
-                        VeloCity<span className="text-indigo-600">.</span> Inventory Ecosystem
-                    </p>
-                    <p className="text-xs text-slate-500 mt-2">© 2026 VeloCity Dynamics. All rights reserved.</p>
-                </div>
-            </footer>
-        </div>
-    );
+interface Product {
+  id: string;
+  p_name: string;
+  p_price: number;
+  p_image: string;
+  p_category: string;
+  p_description: string;
 }
+
+const HomePage = () => {
+  const [products, setProducts] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+  const [activeCategory, setActiveCategory] = useState('All');
+  const navigate = useNavigate(); //
+
+  const categories = ['All', 'Coffee', 'Desserts', 'Burgers'];
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch('http://localhost:3000/product');
+        if (!response.ok) throw new Error('Network response was not ok');
+        const data = await response.json();
+        setProducts(data);
+        setFilteredProducts(data);
+      } catch (err) {
+        console.error("Error loading menu:", err);
+      }
+    };
+    fetchProducts();
+  }, []);
+
+  const filterMenu = (category: string) => {
+    setActiveCategory(category);
+    if (category === 'All') {
+      setFilteredProducts(products);
+    } else {
+      setFilteredProducts(products.filter(p => p.p_category === category));
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-[#faf7f2] text-[#4a3728]">
+      {/* --- HERO SECTION --- */}
+      <section className="relative h-[60vh] flex items-center justify-center bg-[#5d4037] overflow-hidden">
+        <div className="absolute inset-0 opacity-40">
+          <img 
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2000" 
+            alt="Cafe Background" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="relative z-10 text-center px-4">
+          <span className="text-[#d6ccc2] uppercase tracking-[0.3em] text-sm font-bold">Premium Quality</span>
+          <h1 className="text-6xl md:text-8xl font-black text-white mt-2 tracking-tighter uppercase">
+            The Cozy <span className="text-[#b08968]">Bean</span>
+          </h1>
+          <p className="text-[#ede0d4] mt-4 text-lg italic font-serif">Brewing moments, one cup at a time.</p>
+        </div>
+      </section>
+
+      {/* --- CATEGORY FILTER --- */}
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="flex flex-wrap justify-center gap-4 mb-16">
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => filterMenu(cat)}
+              className={`px-8 py-2 rounded-full font-bold border-2 transition-all ${
+                activeCategory === cat 
+                ? "bg-[#5d4037] border-[#5d4037] text-white" 
+                : "border-[#ede0d4] text-[#a1887f] hover:border-[#b08968]"
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+
+        {/* --- PRODUCT GRID --- */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {filteredProducts.map((item) => (
+            <div 
+              key={item.id} 
+              className="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-[#ede0d4] cursor-pointer"
+              onClick={() => navigate(`/product-detail/${item.id}`)} // Poore card par click karne se detail page khulega
+            >
+              <div className="h-72 overflow-hidden relative">
+                <img 
+                  src={item.p_image} 
+                  alt={item.p_name} 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-1 rounded-full text-sm font-black shadow-sm">
+                  ₹{item.p_price}
+                </div>
+              </div>
+              
+              <div className="p-8">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-2xl font-black tracking-tight text-[#5d4037] uppercase">{item.p_name}</h3>
+                  <span className="text-[10px] font-black bg-[#f5ebe0] text-[#b08968] px-2 py-1 rounded tracking-widest">{item.p_category}</span>
+                </div>
+                <p className="text-[#a1887f] text-sm leading-relaxed line-clamp-2 italic mb-6">
+                  {item.p_description}
+                </p>
+                
+                <div className="flex gap-3">
+                  <button 
+                    onClick={(e) => {
+                      e.stopPropagation(); // Card click event ko rokne ke liye
+                      navigate(`/edit-product/${item.id}`);
+                    }} 
+                    className="flex-1 py-3 border-2 border-[#ede0d4] rounded-xl text-sm font-bold hover:bg-[#fdfbf7] transition-all"
+                  >
+                    Edit Item
+                  </button>
+                  <button 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      // Order logic yahan aayegi
+                    }}
+                    className="flex-1 bg-[#5d4037] text-white py-3 rounded-xl text-sm font-bold hover:bg-[#4a3728] transition-all shadow-lg shadow-[#5d4037]/20"
+                  >
+                    Order
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {filteredProducts.length === 0 && (
+          <div className="text-center py-20">
+            <p className="text-[#a1887f] italic text-xl">Menu is being prepared...</p>
+          </div>
+        )}
+      </div>
+
+      <footer className="bg-[#5d4037] text-white py-12 mt-20 text-center">
+        <h2 className="text-2xl font-black tracking-widest uppercase">The Cozy Bean</h2>
+        <p className="text-[#d6ccc2] mt-2 text-sm">Experience the art of coffee</p>
+      </footer>
+    </div>
+  );
+};
+
+export default HomePage;
